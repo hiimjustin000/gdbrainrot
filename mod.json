@@ -1,0 +1,108 @@
+{
+	"geode": "4.1.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "steve.brainrot",
+	"name": "Brainrot",
+	"version": "v1.0.0",
+	"developer": "steve",
+	"description": "ADHD Video players",
+	"repository": "https://www.github.com/SpazElectro/gdbrainrot",
+	"resources": {
+		"files": [
+			"resources/video1.mpg",
+			"resources/video2.mpg"
+		]
+	},
+	"tags": [
+		"joke"
+	],
+	"settings": {
+		"player1-title": {
+			"type": "title",
+			"name": "Peter Griffin"
+		},
+		"player1-scale": {
+			"name": "Video Scale",
+			"description": "The scale of the video player",
+			"type": "float",
+			"default": 5
+		},
+		"player1-xpos": {
+			"name": "Video Position X",
+			"description": "The horizontal position of the video player",
+			"type": "int",
+			"default": 400
+		},
+		"player1-ypos": {
+			"name": "Video Position Y",
+			"description": "The vertical position of the video player",
+			"type": "int",
+			"default": 100
+		},
+		"player1-rotation": {
+			"name": "Video Rotation",
+			"description": "The rotation of the video player",
+			"type": "float",
+			"min": -360,
+			"default": 0
+		},
+		"player1-volume": {
+			"name": "Video Audio Volume",
+			"description": "The video player's audio volume",
+			"type": "float",
+			"default": 1
+		},
+		"player1-enabled": {
+			"name": "Video Player Enabled",
+			"description": "Should this video player be enabled?",
+			"type": "bool",
+			"default": true
+		},
+		"player2-title": {
+			"type": "title",
+			"name": "Subway Surfers"
+		},
+		"player2-scale": {
+			"name": "Video Scale",
+			"description": "The scale of the video player",
+			"type": "float",
+			"default": 5
+		},
+		"player2-xpos": {
+			"name": "Video Position X",
+			"description": "The horizontal position of the video player",
+			"type": "int",
+			"default": 80
+		},
+		"player2-ypos": {
+			"name": "Video Position Y",
+			"description": "The vertical position of the video player",
+			"type": "int",
+			"default": 100
+		},
+		"player2-rotation": {
+			"name": "Video Rotation",
+			"description": "The rotation of the video player",
+			"type": "float",
+			"min": -360,
+			"default": 0
+		},
+		"player2-volume": {
+			"name": "Video Audio Volume",
+			"description": "The video player's audio volume",
+			"type": "float",
+			"default": 1
+		},
+		"player2-enabled": {
+			"name": "Video Player Enabled",
+			"description": "Should this video player be enabled?",
+			"type": "bool",
+			"default": true
+		}
+	}
+}
